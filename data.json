@@ -1,0 +1,70 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Phones",
+      "description": "Only phones"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Laptops",
+      "description": "Only laptops"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Iphone 14 Pro",
+      "category": "Phones",
+      "description": "New Iphope",
+      "price": 1300,
+      "release_date": "2023-06-29",
+      "last_change_date": "2023-06-29",
+      "photo": ""
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Iphone XS",
+      "category": "Phones",
+      "description": "Old phone",
+      "price": 350,
+      "release_date": "2023-06-29",
+      "last_change_date": "2023-06-29",
+      "photo": ""
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Macbook 15 Pro",
+      "category": "Laptops",
+      "description": "New laptop",
+      "price": 2000,
+      "release_date": "2023-06-29",
+      "last_change_date": "2023-06-29",
+      "photo": ""
+    }
+  },
+    {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Asus Megatron",
+      "category": "Laptops",
+      "description": "New giga laptop",
+      "price": 5000,
+      "release_date": "2023-06-29",
+      "last_change_date": "2023-06-29",
+      "photo": ""
+    }
+  }
+]
